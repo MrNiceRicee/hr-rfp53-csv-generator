@@ -4,6 +4,7 @@
   "description": "mini app for CSV generator",
   "main": "server.js",
   "scripts": {
+    "servermon": "nodemon server.js localhost 3000 -watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
