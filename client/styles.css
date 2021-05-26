@@ -1,0 +1,46 @@
+
+
+.border-thin {
+  border: 1px solid rgba(0,0,0,.3) ;
+}
+
+.border-rounded {
+  border-radius: .25rem;
+}
+
+.output{
+  min-height: 4rem;
+  text-align: start;
+  padding: 1rem
+}
+/* .output::before {
+  content: 'from JSON';
+  position: relative;
+  top: -1.8rem;
+  background-color: rgba(255,255,255,1);
+  padding-left: .5rem;
+  padding-right: .5rem;
+} */
+
+/* .outputlabel {
+  position: relative;
+  top: -1.8rem;
+  background-color: rgba(255,255,255,1);
+  padding-left: .5rem;
+  padding-right: .5rem
+} */
+
+.cbtn:hover {
+  color: #1266F1 !important;
+  border: 1px solid #1266F1 ;
+  border-radius: .75rem;
+  transition: all .15s ease-in;
+}
+
+.cbtn::after {
+  border: 2px solid black ;
+  background-color: blueviolet;
+  width: 100%;
+  height: 100%;
+  position:relative;
+}
