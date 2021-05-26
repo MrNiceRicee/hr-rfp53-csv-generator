@@ -43,3 +43,11 @@ document.querySelector('#submitJSON').addEventListener('click', (event) => {
 
   }
 })
+
+document.querySelector('#testJSON').addEventListener('click', (event) => {
+  let messageInput = document.querySelector('#JSONArea');
+  const exampleData = new Example();
+  messageInput.value = exampleData.data;
+  messageInput.innerText = exampleData.data;
+  messageInput.dispatchEvent(new Event('focus')) // the JSON label not moving really bothered me
+})

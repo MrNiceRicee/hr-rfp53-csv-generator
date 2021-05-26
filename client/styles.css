@@ -1,4 +1,7 @@
 
+.ctext-smaller {
+  font-size: small;
+}
 
 .border-thin {
   border: 1px solid rgba(0,0,0,.3) ;
